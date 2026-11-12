@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій калькулятор</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="calc">
+    <h1 class="calc-title">Мій калькулятор</h1>
+
+    <div class="input-group">
+      <label for="firstInput">Число A</label>
+      <input type="text" id="firstInput" placeholder="Наприклад, 12">
+    </div>
+
+    <div class="input-group">
+      <label for="secondInput">Число B</label>
+      <input type="text" id="secondInput" placeholder="Наприклад, 3.5">
+    </div>
+
+    <div class="operations">
+      <button type="button" data-action="add">+</button>
+      <button type="button" data-action="subtract">−</button>
+      <button type="button" data-action="multiply">×</button>
+      <button type="button" data-action="divide">÷</button>
+    </div>
+
+    <div class="output" id="output">Відповідь: —</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
